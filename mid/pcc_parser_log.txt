@@ -1,0 +1,238 @@
+PccAppParser v15.0
+
+PCCBitstreamReader read:
+  v3cUnit: size =       33 type =  0 V3C_VPS
+  v3cUnit: size =     2956 type =  1 V3C_AD
+  v3cUnit: size =    41341 type =  2 V3C_OVD
+  v3cUnit: size =   104323 type =  3 V3C_GVD
+  v3cUnit: size =    15767 type =  4 V3C_AVD
+  v3cUnit: size =       33 type =  0 V3C_VPS
+  v3cUnit: size =     4755 type =  1 V3C_AD
+  v3cUnit: size =    48723 type =  2 V3C_OVD
+  v3cUnit: size =   132387 type =  3 V3C_GVD
+  v3cUnit: size =    23970 type =  4 V3C_AVD
+  v3cUnit: size =       33 type =  0 V3C_VPS
+  v3cUnit: size =     4265 type =  1 V3C_AD
+  v3cUnit: size =    45123 type =  2 V3C_OVD
+  v3cUnit: size =   115147 type =  3 V3C_GVD
+  v3cUnit: size =    22841 type =  4 V3C_AVD
+  v3cUnit: size =       33 type =  0 V3C_VPS
+  v3cUnit: size =     2937 type =  1 V3C_AD
+  v3cUnit: size =    34892 type =  2 V3C_OVD
+  v3cUnit: size =    88493 type =  3 V3C_GVD
+  v3cUnit: size =    16521 type =  4 V3C_AVD
+PCCBitstreamReader decode:
+  v3cUnit: size =       33 type =  0 V3C_VPS
+    v3cParameterSet
+  v3cUnit: size =     2956 type =  1 V3C_AD
+    atlasSubStream
+      sampleStreamNalUnit   0 type =  36 NAL_ASPS
+      sampleStreamNalUnit   1 type =  37 NAL_AFPS
+      sampleStreamNalUnit   2 type =  45 NAL_PREFIX_ESEI
+        seiMessage: type = 66 GEOMETRY_SMOOTHING
+      sampleStreamNalUnit   3 type =  23 NAL_IDR_N_LP
+      sampleStreamNalUnit   4 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   5 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   6 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   7 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   8 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   9 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  10 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  11 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  12 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  13 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  14 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  15 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  16 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  17 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  18 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  19 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  20 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  21 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  22 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  23 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  24 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  25 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  26 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  27 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  28 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  29 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  30 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  31 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  32 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  33 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  34 type =   0 NAL_TRAIL_N
+  v3cUnit: size =    41341 type =  2 V3C_OVD
+    videoSubStream
+      occupancy map video  ->41337 B
+  v3cUnit: size =   104323 type =  3 V3C_GVD
+    videoSubStream
+      geometry video  ->104319 B
+  v3cUnit: size =    15767 type =  4 V3C_AVD
+    videoSubStream
+      attribute video  ->15763 B
+  v3cUnit: size =       33 type =  0 V3C_VPS
+    v3cParameterSet
+
++++1+++
+----16521----PCCBitstreamReader decode:
+  v3cUnit: size =       33 type =  0 V3C_VPS
+    v3cParameterSet
+  v3cUnit: size =     4755 type =  1 V3C_AD
+    atlasSubStream
+      sampleStreamNalUnit   0 type =  36 NAL_ASPS
+      sampleStreamNalUnit   1 type =  37 NAL_AFPS
+      sampleStreamNalUnit   2 type =  45 NAL_PREFIX_ESEI
+        seiMessage: type = 66 GEOMETRY_SMOOTHING
+      sampleStreamNalUnit   3 type =  23 NAL_IDR_N_LP
+      sampleStreamNalUnit   4 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   5 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   6 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   7 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   8 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   9 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  10 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  11 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  12 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  13 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  14 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  15 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  16 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  17 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  18 type =   0 NAL_TRAIL_N
+      sampleStreamNalUnit  19 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  20 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  21 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  22 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  23 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  24 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  25 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  26 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  27 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  28 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  29 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  30 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  31 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  32 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  33 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  34 type =   0 NAL_TRAIL_N
+  v3cUnit: size =    48723 type =  2 V3C_OVD
+    videoSubStream
+      occupancy map video  ->48719 B
+  v3cUnit: size =   132387 type =  3 V3C_GVD
+    videoSubStream
+      geometry video  ->132383 B
+  v3cUnit: size =    23970 type =  4 V3C_AVD
+    videoSubStream
+      attribute video  ->23966 B
+  v3cUnit: size =       33 type =  0 V3C_VPS
+    v3cParameterSet
+
++++2+++
+----16521----PCCBitstreamReader decode:
+  v3cUnit: size =       33 type =  0 V3C_VPS
+    v3cParameterSet
+  v3cUnit: size =     4265 type =  1 V3C_AD
+    atlasSubStream
+      sampleStreamNalUnit   0 type =  36 NAL_ASPS
+      sampleStreamNalUnit   1 type =  37 NAL_AFPS
+      sampleStreamNalUnit   2 type =  45 NAL_PREFIX_ESEI
+        seiMessage: type = 66 GEOMETRY_SMOOTHING
+      sampleStreamNalUnit   3 type =  23 NAL_IDR_N_LP
+      sampleStreamNalUnit   4 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   5 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   6 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   7 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   8 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   9 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  10 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  11 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  12 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  13 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  14 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  15 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  16 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  17 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  18 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  19 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  20 type =   0 NAL_TRAIL_N
+      sampleStreamNalUnit  21 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  22 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  23 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  24 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  25 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  26 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  27 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  28 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  29 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  30 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  31 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  32 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  33 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  34 type =   0 NAL_TRAIL_N
+  v3cUnit: size =    45123 type =  2 V3C_OVD
+    videoSubStream
+      occupancy map video  ->45119 B
+  v3cUnit: size =   115147 type =  3 V3C_GVD
+    videoSubStream
+      geometry video  ->115143 B
+  v3cUnit: size =    22841 type =  4 V3C_AVD
+    videoSubStream
+      attribute video  ->22837 B
+  v3cUnit: size =       33 type =  0 V3C_VPS
+    v3cParameterSet
+
++++3+++
+----16521----PCCBitstreamReader decode:
+  v3cUnit: size =       33 type =  0 V3C_VPS
+    v3cParameterSet
+  v3cUnit: size =     2937 type =  1 V3C_AD
+    atlasSubStream
+      sampleStreamNalUnit   0 type =  36 NAL_ASPS
+      sampleStreamNalUnit   1 type =  37 NAL_AFPS
+      sampleStreamNalUnit   2 type =  45 NAL_PREFIX_ESEI
+        seiMessage: type = 66 GEOMETRY_SMOOTHING
+      sampleStreamNalUnit   3 type =  23 NAL_IDR_N_LP
+      sampleStreamNalUnit   4 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   5 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   6 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   7 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   8 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit   9 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  10 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  11 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  12 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  13 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  14 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  15 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  16 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  17 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  18 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  19 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  20 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  21 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  22 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  23 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  24 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  25 type =   1 NAL_TRAIL_R
+      sampleStreamNalUnit  26 type =   0 NAL_TRAIL_N
+  v3cUnit: size =    34892 type =  2 V3C_OVD
+    videoSubStream
+      occupancy map video  ->34888 B
+  v3cUnit: size =    88493 type =  3 V3C_GVD
+    videoSubStream
+      geometry video  ->88489 B
+  v3cUnit: size =    16521 type =  4 V3C_AVD
+    videoSubStream
+      attribute video  ->16517 B
+Bitstream stat:
+  Header:                            61 B       488 b
+    V3CUnitSize[ V3C_VPS ]:       132 B      1056 b
+    V3CUnitSize[ V3C_AD  ]:     14913 B    119304 b
+    V3CUnitSize[ V3C_OVD ]:    170079 B   1360632 b ( Ocm video =    170063 B )
+    V3CUnitSize[ V3C_GVD ]:    440350 B   3522800 b ( Geo video =    440334 B +         0 B +         0 B +         0 B )
+    V3CUnitSize[ V3C_AVD ]:     79099 B    632792 b ( Tex video =     79083 B + (        0 B +         0 B) +         0 B )
+  TotalMetadata:                 185217 B   1481736 b
+  TotalGeometry:                 440334 B   3522672 b
+  TotalAttribute:                   79083 B    632664 b
+  Total:                         704634 B   5637072 b
